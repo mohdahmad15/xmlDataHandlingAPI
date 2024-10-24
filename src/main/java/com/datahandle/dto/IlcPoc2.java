@@ -6,7 +6,6 @@ import lombok.Data;
 
 
 @Data
-//@XmlAccessorType(XmlAccessType.FIELD)
 public class IlcPoc2 {
 
 	 @JacksonXmlProperty(localName = "BeneficiaryLine1")

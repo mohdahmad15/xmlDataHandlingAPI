@@ -5,7 +5,6 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import lombok.Data;
 
 @Data
-//@XmlAccessorType(XmlAccessType.FIELD)
 public class RequestHeaderDTO {
 
 	 @JacksonXmlProperty(localName = "Service")
