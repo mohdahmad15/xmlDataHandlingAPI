@@ -13,7 +13,6 @@ public class IlcPoc2ServiceImpl implements IlcPoc2Service{
 
 	@Override
 	public ServiceRequestDTO convertXmlToJson(String xmlData) throws IOException{
-		 System.out.println(xmlData);
 		XmlMapper xmlMapper=new XmlMapper();
 		return xmlMapper.readValue(xmlData,ServiceRequestDTO.class);
 	}
